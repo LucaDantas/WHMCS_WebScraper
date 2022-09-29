@@ -10,10 +10,9 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-from selenium.webdriver.chrome.service import Service
-
-# unconmment the next line if using chrome
+# unconmment the next line if using firefox and comment the chrome line below
 # from selenium.webdriver.firefox.service import Service
+from selenium.webdriver.chrome.service import Service
 
 def scrape(source, csv_file):
     soup = BeautifulSoup(source, 'html.parser')
