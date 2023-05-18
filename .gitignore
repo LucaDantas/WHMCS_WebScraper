@@ -1,4 +1,4 @@
-config.py
+config*.py
 __pycache__
 geckodriver.log
 data.csv
